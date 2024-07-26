@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* evita com que o padding nao afete o width e o height*/
+  box-sizing: border-box;
+}
+
+:root {
+  --twitter-blue: #1da1f2;
+}
+
+body {
+  color: #0f1419;
+  /* detalhando mais a fonte */
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font: 400 1rem Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  /* pegar a color do body */
+  color: inherit;
+}
